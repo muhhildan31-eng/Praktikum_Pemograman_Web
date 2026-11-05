@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 04 - Daftar Dosen</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+            padding: 30px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        .faculty-title {
+            font-size: 26px;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+        .university-title {
+            font-size: 18px;
+            color: #475569;
+            margin-top: 4px;
+        }
+        .address {
+            font-size: 13px;
+            color: #64748b;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #3b82f6;
+            margin-bottom: 25px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background: #ffffff;
+        }
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f5f9;
+            color: #1e293b;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        tr:hover {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="faculty-title">Fakultas Ilmu Komputer</div>
+        <div class="university-title">Universitas Kuningan</div>
+        <div class="address">
+            Alamat: Jl. Pramuka No.67, Purwawinangun, Kec. Kuningan, Kabupaten Kuningan, Jawa Barat 45512
+        </div>
+        <hr>
+        
+        <table>
+            <caption>DAFTAR DOSEN</caption>
+            <thead>
+                <tr>
+                    <th style="width: 10%; text-align: center;">No.</th>
+                    <th>Nama</th>
+                    <th>Homebase</th>
+                    <th>Rumpun Keilmuan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1.</td>
+                    <td>Tito Sugiharto, M.Eng.</td>
+                    <td>Teknik Informatika</td>
+                    <td>Computer Engineering</td>
+                </tr>
+                <tr>
+                    <td align="center">2.</td>
+                    <td>Erik Kurniadi, M.Kom.</td>
+                    <td>Sistem Informasi</td>
+                    <td>Information System</td>
+                </tr>
+                <tr>
+                    <td align="center">3.</td>
+                    <td>Jerry D. Rahajaan, M.Sn.</td>
+                    <td>Desain Komunikasi Visual</td>
+                    <td>Seni, Desain, & Media</td>
+                </tr>
+                <tr>
+                    <td align="center">4.</td>
+                    <td>Panji Novantara, M.T.</td>
+                    <td>Teknik Informatika</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td align="center">5.</td>
+                    <td>Panji Novantara, M.T.</td>
+                    <td>Teknik Informatika</td>
+                    <td>Teknik Sipil</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
